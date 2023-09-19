@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+</head>
+<body>
+    <div >
+        
+        <form action="" method="get" >
+            <h3 align="center" >REGISTRATION FORM</h3>
+                <table align="center" cellpadding = "7">
+                    <tr>
+                        <td>NAME</td>
+                        <td><input type="text" name="name" placeholder="your name"  required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >EMAIL ID</td>
+                        <td><input type="email" name="email" placeholder="your Email"  required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >PASSWORD</td>
+                        <td><input type="password" name="pwd"  placeholder="Your Password"  autofocus />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >DATE OF BIRTH</td>
+                        <td><input type="date" name="birtthday"  required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >PHONE NO</td>
+                        <td><input type="number" name="phoneno"  required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >GENDER</td>
+                        <td> <input type="radio" id="" name="gender" value="Male" required>
+                             <label for="Male">Male</label>
+                             <input type="radio" id="" name="gender" value="Female" required>
+                             <label for="Female">Female</label>
+                             <input type="radio" id="" name="gender" value="other" required>
+                             <label for="other">Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >LANGUAGE</td>
+                        <td><input list="language" name="lang" placeholder="Select language" required >
+                            <datalist id="language">
+                              <option value="Tamil">
+                              <option value="English">
+                              <option value="Hindi">
+                              <option value="Telugu">
+                              <option value="Malayalam">
+                            </datalist>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >ZIP CODE</td>
+                        <td><input type="number" name="zipcode"  required />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td >ABOUT</td>
+                        <td><textarea name="message" rows="" placeholder="Write about yourself"></textarea>
+                        </td>
+                    </tr>
+                   
+                    <tr>
+                        <td>
+                           <button  >
+                            Register
+                           </button>
+                        </td>
+                        
+                    </tr>
+                </table>
+          
+        </form>
+    </div>
+</body>
+</html>
